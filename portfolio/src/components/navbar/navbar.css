@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #0d141a !important;
+    color: #FFFFFF !important;
+    justify-content: space-evenly;
+}
+
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.name {
+    font-size: 17px;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+}
+
+.nav {
+    font-size: 20px;
+    font-family: "Roboto Condensed";
+    font-weight: 300;
+    border-bottom: 1px solid white;
+}
