@@ -1,9 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import Resume from "../../assets/resume.pdf";
-import { Container } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import "./navbar.css";
 
 function navbar() {

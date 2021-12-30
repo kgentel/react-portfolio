@@ -1,0 +1,18 @@
+.aboutMe {
+    margin-top: 100px;
+}
+
+.image {
+    width: 200px;
+    height: 350px;
+}
+
+.intro {
+    font-family: 'Roboto Condensed';
+}
+
+.sansita {
+    font-family: "Sansita";
+    font-weight: 700 bold;
+    font-size: 27px;
+}

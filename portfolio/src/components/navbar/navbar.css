@@ -1,6 +1,9 @@
-.navbar {
-    background-color: #0d141a !important;
+* {
+    background-color: #0d141a;
     color: #FFFFFF !important;
+}
+
+.navbar {
     justify-content: space-evenly;
 }
 
@@ -10,13 +13,13 @@
 }
 
 .name {
-    font-size: 17px;
+    font-size: 18px;
     font-family: "Roboto Condensed";
     font-weight: 400;
 }
 
 .nav {
-    font-size: 20px;
+    font-size: 23px;
     font-family: "Roboto Condensed";
     font-weight: 300;
     border-bottom: 1px solid white;
