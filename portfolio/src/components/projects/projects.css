@@ -1,0 +1,20 @@
+.projects-section {
+    margin: 0px 50px 100px 50px ;
+}
+
+.container {
+    align-items: center !important;
+}
+
+.section-title {
+    text-align: center;
+    font-family: "Roboto Condensed";
+    margin-bottom: 30px;
+
+}
+
+.project-title {
+    text-align: center;
+    font-family: "Sansita";
+    font-size: 20px;
+}
