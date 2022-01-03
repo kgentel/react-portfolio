@@ -1,0 +1,29 @@
+.reach-out {
+    text-align: center;
+    font-family: "Roboto Condensed";
+    font-size: 90px;
+}
+
+.test {
+    background-color: #141b1d;
+    border-radius: 50px;
+}
+
+.contact-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #141b1d;
+}
+
+.carousel {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 200px;
+    background-color: honeydew !important;
+
+}

@@ -15,7 +15,7 @@ function projects() {
       <Row>
         <Col>
           <a href="https://ska246801.github.io/Marvel-Quiz-Project-1/" target="_blank" className="link">
-            <Card.Img variant="top" src={Marvel} />
+            <Card.Img variant="top" src={Marvel}/>
           </a>
           <Card.Body>
             <Card.Title className="project-title">Marvel Character Quiz</Card.Title>

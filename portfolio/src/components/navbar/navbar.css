@@ -5,6 +5,7 @@
 
 .navbar {
     justify-content: space-evenly;
+    position: fixed 'top';
 }
 
 .container {

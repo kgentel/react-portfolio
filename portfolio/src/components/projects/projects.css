@@ -2,10 +2,6 @@
     margin: 0px 50px 100px 50px ;
 }
 
-.container {
-    align-items: center !important;
-}
-
 .section-title {
     text-align: center;
     font-family: "Roboto Condensed";
@@ -16,5 +12,5 @@
 .project-title {
     text-align: center;
     font-family: "Sansita";
-    font-size: 20px;
+    font-size: 22px;
 }
