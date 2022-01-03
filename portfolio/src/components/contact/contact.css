@@ -4,7 +4,7 @@
     font-size: 90px;
 }
 
-.test {
+.item {
     background-color: #141b1d;
     border-radius: 50px;
 }
@@ -23,7 +23,5 @@
 .carousel {
     width: 40%;
     margin: auto;
-    margin-bottom: 250px;
-    background-color: honeydew !important;
-
+    margin-bottom: 165px;
 }

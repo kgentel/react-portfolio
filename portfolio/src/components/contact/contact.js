@@ -13,7 +13,7 @@ function contact() {
             Reach Out!
         </div>
       <Carousel className="carousel">
-        <Carousel.Item className="test">
+        <Carousel.Item className="item">
         <a href="https://github.com/kgentel" target="_blank">
           <img
             className="contact-image"
@@ -22,7 +22,7 @@ function contact() {
           />
           </a>
         </Carousel.Item>
-        <Carousel.Item className="test">
+        <Carousel.Item className="item">
         <a href="https://www.linkedin.com/in/katie-gentel-ab612a164/" target="_blank">
           <img
             className="contact-image"
@@ -31,7 +31,7 @@ function contact() {
           />
           </a>
         </Carousel.Item>
-        <Carousel.Item className="test">
+        <Carousel.Item className="item">
         <a href="mailto:katie.m.gentel@gmail.com">
           <img
             className="contact-image"
