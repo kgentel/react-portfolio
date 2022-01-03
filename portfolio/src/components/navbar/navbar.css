@@ -1,6 +1,7 @@
 * {
     background-color: #0d141a;
     color: #FFFFFF !important;
+    /* scroll-behavior: smooth; */
 }
 
 .navbar {

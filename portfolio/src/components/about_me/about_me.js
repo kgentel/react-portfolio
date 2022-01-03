@@ -6,7 +6,7 @@ import './about_me.css';
 
 function aboutMe () {
     return (
-        <Container className="aboutMe">
+        <Container className="aboutMe" id="about_me">
             <Row>
                 <Col></Col>
                 <Col>

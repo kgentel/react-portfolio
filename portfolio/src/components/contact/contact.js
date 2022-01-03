@@ -8,7 +8,7 @@ import "./contact.css";
 
 function contact() {
   return (
-    <div>
+    <div id="contact">
         <div className="reach-out">
             Reach Out!
         </div>
