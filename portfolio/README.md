@@ -5,4 +5,4 @@ In this project I created a portfolio. It contains sections about me, my project
 Deployed app: http://kgentel.github.io/react-portfolio
 
 Image of app:
-![alt text](/src/assets/readme.jpg)
+![alt text](src/assets/readme.jpg)
