@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Carousel, Container } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import Github from "../../assets/github3.jpg"
 import Linkedin from "../../assets/linkedin3.jpg"
 import Email from "../../assets/email.jpg"
@@ -10,7 +10,7 @@ function contact() {
   return (
     <div>
         <div className="reach-out">
-            Reach Out!!
+            Reach Out!
         </div>
       <Carousel className="carousel">
         <Carousel.Item className="test">
