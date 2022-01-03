@@ -1,13 +1,29 @@
 * {
     background-color: #0d141a;
     color: #FFFFFF !important;
-    /* scroll-behavior: smooth; */
 }
 
 .navbar {
     justify-content: space-evenly;
     position: fixed 'top';
 }
+
+.pulse {
+    padding: 0px 0px 0px 0px;
+    margin: 8px 0px 8px 0px;
+}
+
+.pulse:hover{ 
+    animation: pulse 1s infinite;
+    animation-timing-function: linear; 
+  }
+  
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+    }
+  
 
 .container {
     padding: 0px;

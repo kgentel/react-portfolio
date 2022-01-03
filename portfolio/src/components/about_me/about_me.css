@@ -6,14 +6,21 @@
 .image {
     width: 200px;
     height: 350px;
+    margin-left: 50px;
 }
 
 .intro {
     font-family: 'Roboto Condensed';
+    font-size: 17px;
 }
 
 .sansita {
     font-family: "Sansita";
     font-weight: 800 bold;
-    font-size: 27px;
+    font-size: 35px;
 }
+
+
+
+
+

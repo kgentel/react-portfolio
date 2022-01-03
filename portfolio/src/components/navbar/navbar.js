@@ -10,12 +10,10 @@ function navbar() {
       <Container className="container">
         <Navbar.Brand className="navbar name">Katie Gentel</Navbar.Brand>
         <Nav className="justify-content-end nav">
-          <Nav.Link href="#about_me" className="navbar">About Me</Nav.Link>
-          <Nav.Link href="#projects" className="navbar">Projects</Nav.Link>
-         
-          <Nav.Link href="#contact" className="navbar">Contact</Nav.Link>
-      
-          <Nav.Link href={Resume} target="_blank" className="navbar">Resume</Nav.Link>
+          <Nav.Link href="#about_me" className="navbar pulse">About Me</Nav.Link>
+          <Nav.Link href="#projects" className="navbar pulse">Projects</Nav.Link>
+          <Nav.Link href="#contact" className="navbar pulse">Contact</Nav.Link>
+          <Nav.Link href={Resume} target="_blank" className="navbar pulse">Resume</Nav.Link>
         </Nav>
      
       </Container>

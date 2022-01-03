@@ -9,13 +9,13 @@ import "./projects.css";
 function projects() {
   return (
     <div className="projects-section" id="projects">
-      <div class="section-title">
-        <h2>Projects</h2>
+      <div className="section-title">
+        My Work
       </div>
       <Row>
-        <Col>
+        <Col className="project-col">
           <a href="https://ska246801.github.io/Marvel-Quiz-Project-1/" target="_blank" className="link">
-            <Card.Img variant="top" src={Marvel}/>
+            <Card.Img variant="top" src={Marvel} className="project-image"/>
           </a>
           <Card.Body>
             <Card.Title className="project-title">Marvel Character Quiz</Card.Title>
@@ -25,9 +25,9 @@ function projects() {
             </Card.Text>
           </Card.Body>
         </Col>
-        <Col>
+        <Col  className="project-col">
           <a href="https://www.youtube.com/watch?v=MdGaauJyMSc" target="_blank" className="link">
-            <Card.Img variant="top" src={Tracker} />
+            <Card.Img variant="top" src={Tracker} className="project-image" />
           </a>
           <Card.Body>
             <Card.Title className="project-title">Employee Tracker</Card.Title>
@@ -37,9 +37,9 @@ function projects() {
             </Card.Text>
           </Card.Body>
         </Col>
-        <Col>
+        <Col className="project-col">
           <a href="https://mswil-skindeep.herokuapp.com/" target="_blank" className="link">
-            <Card.Img variant="top" src={SkinDeep} />
+            <Card.Img variant="top" src={SkinDeep} className="project-image" />
           </a>
           <Card.Body>
             <Card.Title className="project-title">Skin Deep</Card.Title>

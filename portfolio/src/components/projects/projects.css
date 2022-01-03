@@ -1,17 +1,33 @@
 .projects-section {
-    margin: 100px 90px 100px 90px ;
-    padding: 150px 0px 240px 0px;
+  margin: 100px 90px 100px 90px;
+  padding: 150px 0px 240px 0px;
 }
 
 .section-title {
-    text-align: center;
-    font-family: "Roboto Condensed";
-    margin-bottom: 30px;
-
+  text-align: center;
+  font-family: "Roboto Condensed";
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 300;
 }
 
 .project-title {
-    text-align: center;
-    font-family: "Sansita";
-    font-size: 22px;
+  text-align: center;
+  font-family: "Sansita";
+  font-size: 22px;
+}
+
+.project-col {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.project-image {
+  border-radius: 10px;
+}
+
+.project-image:last-of-type:hover {
+  box-shadow: 0px 0px 40px 0px #975d6e;
+  transform: scale(1.1);
+  
 }

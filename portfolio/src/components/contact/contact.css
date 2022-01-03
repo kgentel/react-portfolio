@@ -1,27 +1,43 @@
 .reach-out {
-    text-align: center;
-    font-family: "Roboto Condensed";
-    font-size: 90px;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 90px;
 }
 
 .item {
-    background-color: #141b1d;
-    border-radius: 50px;
+  background-color: #141b1d;
+  border-radius: 50px;
 }
 
 .contact-image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 40px;
-    width: 200px;
-    height: 200px;
-    background-color: #141b1d;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  background-color: #141b1d;
+}
+
+.contact-image:hover {
+  animation: wiggle 150ms infinite;
+  animation-timing-function: linear;
+}
+@keyframes wiggle {
+  0% {
+    transform: translate(4px, 0);
+  }
+  50% {
+    transform: translate(-4px, 0);
+  }
+  100% {
+    transform: translate(4px, 0);
+  }
 }
 
 .carousel {
-    width: 40%;
-    margin: auto;
-    margin-bottom: 165px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 165px;
 }

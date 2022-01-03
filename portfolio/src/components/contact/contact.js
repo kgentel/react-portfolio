@@ -14,20 +14,20 @@ function contact() {
         </div>
       <Carousel className="carousel">
         <Carousel.Item className="item">
-        <a href="https://github.com/kgentel" target="_blank">
-          <img
-            className="contact-image"
-            src={Github}
-            alt="Github"
-          />
-          </a>
-        </Carousel.Item>
-        <Carousel.Item className="item">
         <a href="https://www.linkedin.com/in/katie-gentel-ab612a164/" target="_blank">
           <img
             className="contact-image"
             src={Linkedin}
             alt="LinkedIn"
+          />
+          </a>
+        </Carousel.Item>
+        <Carousel.Item className="item">
+        <a href="https://github.com/kgentel" target="_blank">
+          <img
+            className="contact-image"
+            src={Github}
+            alt="Github"
           />
           </a>
         </Carousel.Item>
