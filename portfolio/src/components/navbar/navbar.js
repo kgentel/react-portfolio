@@ -8,7 +8,7 @@ function navbar() {
   return (
     <Navbar className="navbar" sticky="top">
       <Container className="container">
-        <Navbar.Brand className="navbar name">Katie Gentel</Navbar.Brand>
+        <Nav.Link className="navbar name" href="#home">Katie Gentel</Nav.Link>
         <Nav className="justify-content-end nav">
           <Nav.Link href="#about_me" className="navbar pulse">About Me</Nav.Link>
           <Nav.Link href="#projects" className="navbar pulse">Projects</Nav.Link>
