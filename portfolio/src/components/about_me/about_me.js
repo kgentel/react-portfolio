@@ -18,7 +18,7 @@ function aboutMe () {
                 <p className="intro">
                     Hi, I'm Katie
                 </p>
-                <p className="sansita testing">A full stack web developer</p>
+                <p className="sansita">A full stack web developer</p>
                 <p className="intro">
                 I love going to the gym and being outdoors… but I also
                  love sweets and watching shows – this may be my greatest downfall. 

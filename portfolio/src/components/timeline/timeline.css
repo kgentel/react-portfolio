@@ -1,0 +1,139 @@
+.gradient {
+    background-image: linear-gradient(to bottom right, #0d141a, #673d4d, #0d141a);
+    padding: 20px 0;
+}
+
+.timeline-title {
+  text-align: center;
+  font-family: "Sansita";
+  font-size: 50px;
+  padding-bottom: 20px;
+  background: transparent;
+  color:  #FFFFFF !important;
+}
+
+.icon {
+  background: transparent;
+  padding-bottom: 7px;
+}
+
+.timeline-section {
+  box-sizing: border-box;
+  background: transparent;
+  font-family: "Roboto Condensed";
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  width: 75%;
+  height: auto;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background: #0d141a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -1px;
+}
+/* Container around content */
+.timeline-container {
+  content: "";
+  position: absolute;
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  right: -8px;
+  z-index: 1;
+  top: calc(50% - 8px);
+}
+/* The circles on the timeline */
+.timeline-container::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: -11px;
+  background-color: #0d141a;
+  border: 2px solid #0d141a;
+  top: calc(50% - 12px);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  width: 34px;
+  height: 3px;
+  background: #0d141a;
+  top: calc(50% - 3px);
+  right: 8px;
+  z-index: 1;
+}
+/* Place the container to the left */
+.left {
+  left: 0;
+  border-right: 1px solid #0d141a;
+}
+/* Place the container to the right */
+.right {
+  left: 50%;
+  border-left: 1px solid #0d141a;
+}
+
+/* Line from content to vertical */
+.right::before {
+  left: 8px;
+}
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -11px;
+}
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  position: relative;
+}
+
+.timeline-container .content {
+  padding: 30px 60px 30px 30px;
+  background: #0d141a;
+  position: relative;
+  border-radius: 0 500px 500px 0;
+  border: 2px solid #0d141a;
+}
+
+.timeline-container.right .content {
+  padding: 30px 30px 30px 60px;
+  border-radius: 500px 0 0 500px;
+}
+
+.timeline-container .date {
+  position: absolute;
+  display: inline-block;
+  top: calc(50% - 10px);
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.timeline-container.left .date {
+  right: -60px;
+  background: transparent;
+}
+
+.timeline-container.right .date {
+  left: -60px;
+  background: transparent;
+}
