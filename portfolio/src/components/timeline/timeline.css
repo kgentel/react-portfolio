@@ -173,6 +173,10 @@
     font-size: 40px;
   }
 
+  .timeline-title .icon {
+    width: 38px;
+  }
+
   .timeline {
     width: 100%;
   }
