@@ -41,3 +41,7 @@
   margin: auto;
   margin-bottom: 165px;
 }
+
+.carousel-indicators {
+  background: transparent;
+}

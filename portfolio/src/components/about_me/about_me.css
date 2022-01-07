@@ -16,10 +16,60 @@
 
 .sansita {
     font-family: "Sansita";
-    font-weight: 800 bold;
+    font-weight: 800;
     font-size: 35px;
 }
 
+@media screen and (max-width: 575px) {
+    .aboutMe {
+        margin-bottom: 80px;
+        padding-top: 80px;
+    }
+    
+    .image {
+        width: 130px;
+        height: 230px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .intro {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .sansita {
+        font-weight: 800;
+        font-size: 32px;
+        margin-bottom: 6px;
+    }
+  }
+
+
+@media screen and (max-width: 522px) {
+    .aboutMe {
+        margin-bottom: 80px;
+        padding-top: 80px;
+    }
+    
+    .image {
+        width: 100px;
+        height: 180px;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+
+    .intro {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+
+    .sansita {
+        font-weight: 800;
+        font-size: 27px;
+        margin-bottom: 4px;
+    }
+  }
 
 
 
