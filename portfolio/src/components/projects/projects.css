@@ -35,21 +35,9 @@
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 600px) {
-  .projects-section {
-    padding-bottom: 0;
-  }
-  
+@media screen and (max-width: 600px) {  
   .project-col {
     padding-bottom: 50px;
-  }
-
-  .card-body {
-    width: 350px;
-  }
-
-  .project-image {
-    width: 350px;
   }
 
   .card-body p {
@@ -58,43 +46,11 @@
   }
 }
 
-@media screen and (max-width: 499px) {
-  .projects-section {
-    padding-bottom: 0;
-  }
-
-
-  .project-col {
-    padding-bottom: 50px;
-  }
-
-  .card-body p {
-    text-align: center;
-  }
-}
 
 @media screen and (max-width: 440px) {
-  .projects-section {
-    padding-bottom: 0;
-  }
-
-  /* .project-col {
-    padding: 0 0 50px 0;
-    margin: 0;
-  } */
-
   .section-title{
     font-size: 45px;
   }
-
-  /* .card-body {
-    width: 260px;
-  }
-
-  .project-image {
-    width: 260px;
-  
-  } */
 
   .card-body p {
     font-size: 15px;
@@ -104,16 +60,9 @@
 
 
 @media screen and (max-width: 380px) {
- 
-  
   .section-title{
     font-size: 40px;
   }
-
-  /* .project-col {
-    padding: 0 0 50px 0;
-    margin: 0;
-  } */
 
   .card-body p {
     font-size: 13px;
