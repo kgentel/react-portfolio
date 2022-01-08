@@ -45,3 +45,29 @@
 .carousel-indicators {
   background: transparent;
 }
+
+
+@media screen and (max-width: 700px) {
+  .carousel {
+    width: 350px;
+  }
+
+  .reach-out {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel {
+    width: 250px;
+  }
+
+  .contact-image {
+    width: 170px;
+    height: 170px;
+  }
+
+  .reach-out {
+    font-size: 60px;
+  }
+}
