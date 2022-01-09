@@ -20,6 +20,8 @@
     font-size: 35px;
 }
 
+/* Mobile Responsive */
+
 @media screen and (max-width: 575px) {
     .aboutMe {
         margin-bottom: 80px;
