@@ -36,9 +36,9 @@
 /* Mobile Responsive */
 
 @media screen and (max-width: 600px) {  
-  .projects-section {
+  /* .projects-section {
     padding-bottom: 0;
-  }
+  } */
   
   .project-col {
     padding-bottom: 50px;
@@ -52,9 +52,9 @@
 
 
 @media screen and (max-width: 499px) {
-  .projects-section {
+  /* .projects-section {
     padding-bottom: 0;
-  }
+  } */
 
   .section-title{
     font-size: 45px;
